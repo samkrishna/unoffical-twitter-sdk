@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "unoffical-twitter-sdk"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "A Unoffical Twitter SDK that give capablities similar to the facebook-ios-sdk."
   s.description  = <<-DESC
                       Unoffical Twitter SDK
