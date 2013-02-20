@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "unoffical-twitter-sdk"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Unoffical Twitter SDK that give capablities similar to the facebook-ios-sdk."
   s.description  = <<-DESC
                       Unoffical Twitter SDK
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'unoffical-twitter-sdk/TwitterDialog.h',
                           'unoffical-twitter-sdk/OAuth/OAuthConsumerCredentials.h',
                           'unoffical-twitter-sdk/OAuth/Protocols/OAuthTwitterCallbacks.h',
-                          'unoffical-twitter-sdk/OAuth/Guts/OAuth.h'
+                          'unoffical-twitter-sdk/OAuth/Guts/OAuth.h',
                           'unoffical-twitter-sdk/OAuth/Guts/NSString+URLEncoding.h'
 
   s.resources = "unoffical-twitter-sdk/*.png"
